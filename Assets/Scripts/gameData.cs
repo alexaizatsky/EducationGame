@@ -9,7 +9,14 @@ public class gameData
 
     public gameData()
     {
-        inputValue = 25;
+        inputValue = 5;
         outputValue = 0;
     }
+}
+
+[System.Serializable]
+public class urlData
+{
+    public string inputUrlLink;
+    public string outputUrlLink;
 }
